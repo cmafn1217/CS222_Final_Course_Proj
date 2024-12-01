@@ -67,10 +67,22 @@ footer {
     }
 
     .sidebar {
-        display: none;
+        transform: translateX(-100%);
     }
 
-    .content {
-        grid-column: 1 / -1;
+    .toggle-sidebar {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 20;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
     }
+}
+
+.toggle-sidebar {
+    display: none;
 }
