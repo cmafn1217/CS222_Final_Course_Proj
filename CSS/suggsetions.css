@@ -13,7 +13,6 @@
     text-align: center;
     margin-bottom: 10px;
     font-size: 1.5em;
-    color: #333;
 }
 
 .suggestion-card {
@@ -39,6 +38,7 @@
 .suggestion-card h3 {
     margin: 10px 0 5px;
     font-size: 1.2em;
+    color: #333;
 }
 
 .suggestion-card p {
