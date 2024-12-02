@@ -51,7 +51,7 @@ header {
     grid-area: content;
     padding: 15px;
     border: 2px solid #ddd;
-    margin-right: 15px;
+    margin-right: 5px;
     border-radius: 8px;
 }
 
@@ -97,3 +97,15 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
+.navBar ol li a:hover {
+    font-weight: 650;
+    text-decoration: underline;
+}
+
+.navBar ol li a {
+    font-size: 1.2em;
+}
+
+.navBar ol li {
+    font-weight: 500;
+}

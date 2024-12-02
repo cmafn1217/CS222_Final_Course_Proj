@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr; /* Single column for the content */
+    grid-template-areas: 
+        "content";
+    gap: 10px;
+    min-height: calc(100vh - 60px);
+    padding-top: 90px;
+    background-color: #2C3E50;
+    color: #E0E0E0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1;
+    background-color: #1E1E2C;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    grid-area: content;
+    padding: 15px;
+    border: 2px solid #ddd;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #282C34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
