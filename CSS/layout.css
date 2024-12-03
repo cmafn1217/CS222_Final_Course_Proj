@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-text {
+    font-family: 'Jaro', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1;
+    background-color: #1E1E2C;
+    background-image: url('/Images/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
 .container {
     display: grid;
     grid-template-rows: auto 1fr auto;
