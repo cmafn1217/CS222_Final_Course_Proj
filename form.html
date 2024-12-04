@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/sidebar.css">
+    <link rel="stylesheet" href="CSS/newbg.css">
+    <script src="JS Code/hex.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/forms.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Forms</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="suggestions.html">Suggestions</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="hexagon-container"></div>
+        <div class="content">
+            <div class="form-container">
+                <h1>Consultation / Building Form</h1>
+                <hr>
+                <form id="consultationForm" action="thank-you.html" method="get">
+                    <legend>Choose a service:</legend>
+                    <div class="account-type">
+                        <input type="radio" name="account" id="radioOne" value="none">
+                        <label for="radioOne" class="radio">Consultation</label>
+
+                        <input type="radio" name="account" id="radioTwo" value="none">
+                        <label for="radioTwo" class="radio">Building</label>
+                    </div>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First and Last">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="emailhere@xxx.com">
+
+                    <p>
+                        * For requests, please be specific. For Consultation state your specific needs and what you aim
+                        to achieve after the meeting. For Building, be sure to enter your budget, design requests, and
+                        any additional / important requests you may need so we can tailor the PC to YOU.<br>
+                        *Those who do not comply will not be attended to, or will be emailed to fix for submission.*
+                    </p>
+                    <label for="requests">Requests:</label>
+                    <input type="text" id="requests" name="requests" placeholder="Enter your requests here">
+
+                    <div class="btnA">
+                        <hr>
+                        <p>
+                            Once clicking submit, please allow our team 1-2 business days to reach back to you via
+                            email. Additionally, we will work together with you on scheduling any meetings you might
+                            need.
+                        </p>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#top">Back to top</a>
+        <p>
+            &copy;2024 A product of C-ALM Tech
+            <br>
+            <i class="fas fa-phone"></i> Tel: 670-123-4567
+            <br>
+            <i class="fas fa-envelope"></i> Email: pcpme@gmail.com
+        </p>
+    </footer>
+
+</body>
+
+</html>

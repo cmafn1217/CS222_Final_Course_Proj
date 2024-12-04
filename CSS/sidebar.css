@@ -25,7 +25,7 @@ header {
     left: 0;
     right: 0;
     height: 60px;
-    z-index: 1;
+    z-index: 3;
     background-color: #1E1E2C;
     background-image: url('/Images/header.png');
     background-size: cover;
@@ -34,6 +34,7 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header h1 {
@@ -71,6 +72,8 @@ nav a:hover{
     border-radius: 8px;
     background-color: #2c2c4d;
     color: #f9f9f9;
+    z-index: 1;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 footer {
@@ -98,3 +101,60 @@ footer a:hover {
     font-weight: bold;
 }
 
+table {
+    width: 95%;
+    border-collapse: separate;
+    margin: 20px 0;
+    border-radius: 8px;
+    border-spacing: 0;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+.webTable th, .webTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #1E1E2C;
+    text-shadow: none;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.webTable th {
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.webTable td {
+    background-color: #98a1e4f2;
+}
+
+.webTable img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.webTable .gpuIMG {
+    width: 130px;
+    height: auto;
+    object-fit: cover;
+}
+
+.fa-phone {
+    transform: scaleX(-1);
+}
+
+
+.partLink {
+    text-decoration: none;
+    color: #8888e1;
+    font-weight: 400;
+}
+
+.partLink:hover {
+    font-weight: bold;
+    color: #a8a8f3;
+}

@@ -1,0 +1,48 @@
+/* General layout for the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Submission details box */
+#submission-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #333;
+    text-shadow: none;
+}
+
+/* Text inside the submission box */
+#submission-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Button styling */
+#back-home-button {
+    background-color: #824686;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#back-home-button:hover {
+    background-color: #a56cb2;
+}

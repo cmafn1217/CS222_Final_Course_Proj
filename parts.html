@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parts</title>
     <link rel="stylesheet" href="CSS/sidebar.css">
+    <link rel="stylesheet" href="CSS/newbg.css">
+    <script src="JS Code/hex.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 
 <body>
-    
+
     <header>
         <h1>PC Components</h1>
         <nav>
@@ -20,39 +24,286 @@
     </header>
 
     <main class="container">
+        <div class="hexagon-container"></div>
         <div class="content">
-            <h2>Main Body</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero magna, congue vel sapien nec,
-                malesuada mollis quam. Vestibulum pretium enim sed sem cursus, ut condimentum tortor suscipit.
-                Pellentesque orci lectus, dapibus ac congue vel, interdum vitae metus...
-            </p>
+            <h2>PC Parts List & Low-High Range Combos</h2>
+            <table class="webTable">
+                <thead>
+                    <tr>
+                        <th>Part</th>
+                        <th>Description</th>
+                        <th>Part Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CPU</td>
+                        <td>A <strong>CPU (Central Processing Unit)</strong> is the brain of a computer that processes
+                            instructions, performs calculations, and manages data to run programs and complete tasks.
+                        </td>
+                        <td><img src="Images/cpu-152656_640.png"></td>
+                    </tr>
+                    <tr>
+                        <td>GPU</td>
+                        <td>A <strong>GPU (Graphics Processing Unit)</strong> is a part of a computer that focuses on
+                            rendering
+                            images, videos, and animations. It’s essential for gaming, video editing, and tasks
+                            requiring visual processing.</td>
+                        <td><img src="Images/PngItem_7655073.png" class="gpuIMG"></td>
+                    </tr>
+                    <tr>
+                        <td>Motherboard</td>
+                        <td>A <strong>motherboard</strong> is the main circuit board that connects all the components of
+                            a computer, such
+                            as the CPU, RAM, and storage. It acts as a communication hub, providing power and enabling
+                            data transfer between parts to ensure the system functions as a whole.</td>
+                        <td><img src="Images/motherboard.png"></td>
+                    </tr>
+                    <tr>
+                        <td>Memory (RAM)</td>
+                        <td><strong>RAM (Random Access Memory)</strong> is the short-term memory of a computer,
+                            temporarily storing data
+                            that the CPU needs to access quickly. It plays a significant role in multitasking and
+                            overall system speed by reducing load times and improving responsiveness.</td>
+                        <td><img src="Images/ram-memory.png"></td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td><strong>Storage</strong> refers to the device where data, programs, and the operating system
+                            are saved. It
+                            can be a traditional <strong>HDD (Hard Disk Drive)</strong> or a faster <strong>SSD
+                                (Solid-State Drive)</strong>, with SSDs
+                            offering quicker access to files and smoother system performance.</td>
+                        <td><img src="Images/compstorage.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Case</td>
+                        <td>A <strong>PC case</strong> is the enclosure that holds and protects all the internal
+                            components of a
+                            computer. It also helps with cable management and provides mounting points for hardware like
+                            the motherboard and storage drives. Proper airflow within the case is crucial to keep
+                            components cool, prevent overheating, and ensure stable performance, especially during heavy
+                            use.</td>
+                        <td><img src="Images/compcase.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Fans</td>
+                        <td><strong>PC fans</strong> are cooling devices used to maintain optimal temperatures inside
+                            the computer. They
+                            help circulate air, prevent overheating, and ensure that components like the CPU and GPU can
+                            operate efficiently during intensive tasks.<br>Fans are important so that your PC doesn't
+                            sound like this: </td>
+                        <td><img src="Images/compfan.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Power Supply</td>
+                        <td>A <strong>PSU (Power Supply Unit)</strong> converts electricity from your wall outlet into a
+                            usable form for
+                            your computer's components. It provides consistent power and determines how many and what
+                            types of hardware the system can support.</td>
+                        <td><img src="Images/comppsu.png" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <hr>
+            <br>
+
+            <h2>Low - High Range PC Builds (From suggestions page)</h2>
+            <p>Below are the suggested builds from the combinations given in the suggestinos page. Accessories such as
+                CPU cooler or lights / more fans are not accounted for in price. Additionaly, the prices are subject to
+                change due to the constantly changing market on PC components. Items may be changed in the parts list
+                due to unavailability.</p>
+            <h3>Low Range</h3>
+            <ol>
+                <li>
+                    CPU: Intel Core i5-12400F
+                    <ul>
+                        <li>6 Cores, 12 Threads, 4.4 GHz Turbo</li>
+                    </ul>
+                </li>
+                <li>
+                    GPU: NVIDIA GTX 1650 4GB
+                    <ul>
+                        <li>
+                            A solid entry-level GPU for 1080p gaming with decent performance for the price.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    MotherBoard: GIGABYTE B760 DS3H
+                    <ul>
+                        <li>
+                            ATX motherboard with support for PCIe 4.0, DDR4 RAM, and a solid set of I/O options.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    RAM: Corsair Vengeance LPX 8GB (2x4GB) DDR4 3200MHz
+                    <ul>
+                        <li>
+                            8GB RAM is perfect for gaming and multitasking on a budget.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Storage: Kingston A2000 500GB NVMe SSD
+                    <ul>
+                        <li>Fast storage with good capacity for games and applications.</li>
+                    </ul>
+                </li>
+                <li>
+                    Case: Cooler Master MasterBox Q300L
+                    <ul>
+                        <li>A compact ATX case with good airflow, perfect for budget builds.</li>
+                    </ul>
+                </li>
+                <li>
+                    Fans: ARCTIC P12 120mm PWM Fan (x2)
+                    <ul>
+                        <li>Affordable yet reliable fans for maintaining airflow and cooling.</li>
+                    </ul>
+                </li>
+                <li>
+                    Power Suuply: EVGA 600 W1, 80+ WHITE 600W
+                    <ul>
+                        <li>Budget-friendly 600W PSU with decent efficiency for low-range builds.</li>
+                    </ul>
+                </li>
+            </ol>
+            <h4>Total: $600 (+/- 20 depending on market prices)<br>Link to build <a class="partLink"
+                    href="https://pcpartpicker.com/list/kXMQqH">https://pcpartpicker.com/list/kXMQqH</a></h4>
+            <!-- <br> -->
+            <h3>Mid Range</h3>
+            <ol>
+                <li>
+                    CPU: AMD Ryzen 7 5800X3D
+                    <ul>
+                        <li>8 Cores, 16 Threads, 4.5 GHz MAx boost</li>
+                    </ul>
+                </li>
+                <li>
+                    GPU: NVIDIA GeForce RTX 3060 12GB
+                    <ul>
+                        <li>A powerful GPU for 1080p and 1440p gaming with ray tracing and DLSS support.</li>
+                    </ul>
+                </li>
+                <li>
+                    MotherBoard: GIGABYTE X570 Aorus Pro
+                    <ul>
+                        <li>A high-quality motherboard with PCIe 4.0 support, multiple M.2 slots (for SSD's mostly), and
+                            robust power delivery.</li>
+                    </ul>
+                </li>
+                <li>
+                    RAM: Corsair Vengeance LPX 16GB (2x8GB) DDR4 3600MHZ
+                    <ul>
+                        <li>16GB of faster RAM for smoother multitasking and gaming.</li>
+                    </ul>
+                </li>
+                <li>
+                    Storage: Samsung 970 EVO Plus 1TB NVMe SSD
+                    <ul>
+                        <li>A fast and reliable NVMe SSD with 1TB of storage, perfect for gaming and media files.</li>
+                    </ul>
+                </li>
+                <li>
+                    Case: NZXT H510 ATX Mid Tower
+                    <ul>
+                        <li>A sleek and minimalistic case with excellent cable management and airflow</li>
+                    </ul>
+                </li>
+                <li>
+                    Fans: Forsair AF120 120mm Case Fan (x2)
+                    <ul>
+                        <li>Quality fans for better airflow and cooling.</li>
+                    </ul>
+                </li>
+                <li>
+                    Power Suuply: Corsair RM750W 80+ Gold
+                    <ul>
+                        <li>A reliable, efficient PSU with enough power for the build plus extra headroom for upgrades.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <h4>Total: $1,200.00 (-$50/+70 depending on market prices and other accessories such as third-party CPU
+                coolers) <br>Link to build <a class="partLink"
+                    href="https://pcpartpicker.com/list/yNBtpK">https://pcpartpicker.com/list/yNBtpK</a></h4>
+            <!-- <br> -->
+            <h3>High Range</h3>
+            <ol>
+                <li>
+                    CPU: AMD Ryzen 9 9950X
+                    <ul>
+                        <li>16 Cores, 32 Threads, Up to 5.7 GHz Boost</li>
+                    </ul>
+                </li>
+                <li>
+                    GPU: NVIDIA GeForce RTX 4080 16GB
+                    <ul>
+                        <li>Unmatched performance for 4k gaming, ray-tracing, and AI-based taks like DLSS and NVIDIA
+                            Reflex</li>
+                    </ul>
+                </li>
+                <li>
+                    MotherBoard: Asus X670E Crosshair Hero
+                    <ul>
+                        <li>Premium motherboard with PCIe 5.0 Support, many more M.2 slots, and top-tier power delivery
+                            for overclocking and future-proofing</li>
+                    </ul>
+                </li>
+                <li>
+                    RAM: Corsair Vengeance DDR5 32GB (2x16) 6000MHz
+                    <ul>
+                        <li>32GB of ultra-fast DDR5 memory, ideal for gaming and content creation.</li>
+                    </ul>
+                </li>
+                <li>
+                    Storage: Samsung 980 2TB NVMe SSD
+                    <ul>
+                        <li>Faster read and write speads, great for heavy-load applications, games, and storing files.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Case: Lian Li PC-011 Dynamic Razer Edition
+                    <ul>
+                        <li>A stylish and spacious case with great airflow, cable management, and designed to showcase
+                            the high-end components storeed inside.</li>
+                    </ul>
+                </li>
+                <li>
+                    Fans: Corsair iCUE QL120 RGB 120mm Case Fans (x3)
+                    <ul>
+                        <li>High-performance fans with excellent airflow, and RGB for aesthetics</li>
+                    </ul>
+                </li>
+                <li>
+                    Power Suuply: Corsair RM1000x 1000W 80+ Gold
+                    <ul>
+                        <li>A high-efficiency power supply which feeds power-hungry components allowing maximum
+                            performance and still have enough power for future upgrades.</li>
+                    </ul>
+                </li>
+            </ol>
+            <h4>Total: $2,300.00(-$150 / +200-300 depending on market price and additional accessories)<br>Link to build
+                <a class="partLink" href="https://pcpartpicker.com/list/sGVPnp">https://pcpartpicker.com/list/sGVPnp</a>
+            </h4>
+            <br>
         </div>
     </main>
 
     <footer>
         <a href="#top">Back to top</a>
-        <p>&copy;2024, A product of C-ALM Tech<br>Tel:XXX-XXX-XXXX<br>Email:xxXxX@xxXxxX.com</p>
+        <p>
+            &copy;2024 A product of C-ALM Tech
+            <br>
+            <i class="fas fa-phone"></i> Tel: 670-123-4567
+            <br>
+            <i class="fas fa-envelope"></i> Email: pcpme@gmail.com
+        </p>
     </footer>
 
 </body>

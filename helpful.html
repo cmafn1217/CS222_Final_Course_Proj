@@ -7,6 +7,10 @@
     <title>Helpful</title>
     <link rel="stylesheet" href="CSS/sidebar.css">
     <link rel="stylesheet" href="CSS/helpful.css">
+    <link rel="stylesheet" href="CSS/newbg.css">
+    <script src="JS Code/hex.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,42 +24,54 @@
     </header>
 
     <main class="container">
+        <div class="hexagon-container"></div>
         <div class="content">
             <h2>Helpful Resources</h2>
             <div class="suggestions-grid">
                 <h2>Linus Tech Tips</h2>
                 <div class="video-card">
-                    <iframe 
-                        src="https://www.youtube.com/embed/DC-Xn2C_L1U" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    <iframe src="https://www.youtube.com/embed/DC-Xn2C_L1U" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
                     <h3 class="video-title">About Linus Tech Tips</h3>
-                    <p class="video-description">This is a description for the embedded YouTube video.</p>
-                </div>                
+                    <p>The video above is a POV guide on how to build a PC. There are many
+                        more on the internet but I chose this one from Linus Tech Tips, a very reputable youtuber. Linus
+                        Tech Tips is a great YouTuber for beginner PC builders because his videos offer clear,
+                        step-by-step instructions, breaking down complex topics into easy-to-understand explanations.
+                        His content covers everything from choosing the right parts to assembling and troubleshooting
+                        PCs, all while keeping things engaging and accessible. Whether you're just starting or looking
+                        to upgrade, his reviews, guides, and tutorials provide valuable insights and practical tips for
+                        building your own PC.
+                        <a href="www.youtube.com/@LinusTechTips" target="_blank">Click here</a> to be redirected to his YT page.</p>
+                </div>
                 <h2>Reddit</h2>
                 <div class="suggestion-card">
                     <img src="Images/buildapc.png" alt="image of r/buildapc subreddit: showcases example of post">
                     <h3>Reddit: r/buildapc</h3>
                     <p>Reddit is a community-based website that lets others connect using different topics
                         put in places called subreddits. Building computers sure does have it's own community
-                        on reddit as well. Here at <a href="https://www.reddit.com/r/buildapc">r/buildapc</a> you can seek
-                        for help or look into other discussions with people from a similar perspective as you. Whether you
-                        are a newbie to PC building or a well-experienced builder, this reddit with over 7 Million members has discussions and topics to
+                        on reddit as well. Here at <a href="https://www.reddit.com/r/buildapc" target="_blank">r/buildapc</a> you can
+                        seek
+                        for help or look into other discussions with people from a similar perspective as you. Whether
+                        you
+                        are a newbie to PC building or a well-experienced builder, this reddit with over 7 Million
+                        members has discussions and topics to
                         offer to both worlds.
                         <!-- put in what the subreddit offers and how you personally use it -->
                     </p>
                 </div>
-                <h2>Some Other Webstite Here</h2>
+                <h2>PC PartPicker</h2>
                 <div class="suggestion-card">
-                    <img src="Images/combo3.jpg" alt="combo3">
-                    <h3>AMD Ryzen 9 9950X & Asus X670E Crosshair Hero</h3>
-                    <p>awdadawd wdoawijdodj oawidj aowdijaw doiawjd oawjw oawidjoaiwjdoawd
-                        oaiwjdoawdj awodj oawijdiojd oawdj aiodjawoidjawoidjawoi dawdi
-                        oawjd oawdj awoidjdoijaw doiawjdoiawjd oawidj awiodjaidoj.
-                        <!-- explain how this website could be a better fit bcs yours isnt good -->
+                    <img src="Images/PCPP.png" alt="combo3">
+                    <h3>PC PartPicker</h3>
+                    <p><a href="https://pcpartpicker.com/" target="_blank">PCPartPicker</a> is a great website for beginners building a PC because it simplifies the process of
+                        selecting compatible components. It allows users to easily compare prices across different
+                        retailers, check for compatibility between parts, and access community-generated builds and
+                        reviews. This helps beginners avoid common mistakes, ensuring they pick the right components
+                        that work well together. Additionally, PCPartPicker provides useful tools like part lists, build
+                        guides, and a price tracking feature, making it an all-in-one resource for planning and
+                        purchasing PC parts.
                     </p>
                 </div>
             </div>
@@ -63,7 +79,13 @@
     </main>
     <footer>
         <a href="#top">Back to top</a>
-        <p>&copy;2024, A product of C-ALM Tech<br>Tel:XXX-XXX-XXXX<br>Email:xxXxX@xxXxxX.com</p>
+        <p>
+            &copy;2024 A product of C-ALM Tech
+            <br>
+            <i class="fas fa-phone"></i> Tel: 670-123-4567
+            <br>
+            <i class="fas fa-envelope"></i> Email: pcpme@gmail.com
+        </p>
     </footer>
 
 </body>

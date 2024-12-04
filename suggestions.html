@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="CSS/suggsetions.css">
     <script src="JS Code/sidebar.js" defer></script>
+    <link rel="stylesheet" href="CSS/newbg.css">
+    <script src="JS Code/hex.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,42 +25,78 @@
         </nav>
     </header>
     <main class="container">
+        <div class="hexagon-container"></div>
         <div class="sidebar">
             <h2>Helpful Links</h2>
             <nav class="navBar">
                 <ol>
                     <li><a href="helpful.html">Other Resources</a></li>
                     <li><a href="parts.html">PC Parts and Links</a></li>
+                    <li><a href="form.html">PcPME Forms</a></li>
                 </ol>
             </nav>
+            <img src="Images/compgearswht.png" alt="">
         </div>
         <div class="content">
-            <h2>PC Components Combinations</h2>
+            <h2 class="sgHDR">PC Components Combinations</h2>
+            <p class="sgP">This page has PC Component Combinations based on budget and performance. If your budget is
+                low, your
+                performance will follow suit. The Mid Range Combo(s) are usually what's aimed for when building a
+                PC. Together with the combos are links to the products.
+                <br><br>
+                Dislcaimer: The prices / parts seen in the combos are not "static" prices. The PC marketprices
+                are always jumping from high to low, but the prices usually stay with the price stated +/-$30-$40. If
+                the combos are not considered low they will be changed accordingly, and more will be added soon.
+                <br><br>
+                To see what other componenets fit great with these combos, head to the PC Parts and Links page to get a
+                good understanding of each component, and why they fit well. To go to the PC parts and Links page, just
+                click the respective link in the sidebar.
+            </p>
             <div class="suggestions-grid">
                 <h2>Low Range Combo</h2>
                 <div class="suggestion-card">
                     <img src="Images/combo1.jpg" alt="combo1">
                     <h3>Intel Core i5-12400F & GIGABYTE B760 DS3H</h3>
-                    <p>The Intel Core i5-12400F is a great budget CPU that
-                        is great at everyday computer use, and can handle 1080p
-                        gaming with it's 6-cores and 12-threads.
+                    <p>The <a href="https://a.co/d/3hJIJk6" target="_blank">Intel Core i5-12400F</a> is a
+                        budget-friendly processor with 6 cores and 12 threads, offering
+                        solid performance for everyday tasks like web browsing, content creation, and 1080p gaming.
+                        While lacking integrated graphics, it pairs well with a dedicated GPU for gaming or work builds.
+                        When combined with the <a href="https://a.co/d/3Wz6iIo" target="_blank">GIGABYTE B760 DS3H</a>
+                        motherboard, the i5-12400F benefits from stable
+                        performance and compatibility, making it an excellent choice for a cost-effective, reliable PC
+                        build. The B760 DS3H's solid features and efficient power delivery complement the i5-12400F for
+                        a smooth user experience.
                     </p>
                 </div>
                 <h2>Mid Range Combo</h2>
                 <div class="suggestion-card">
                     <img src="Images/combo2.jpg" alt="combo2">
                     <h3>AMD Ryzen 7 5800X3D & GIGABYTE X570 Aorus Pro</h3>
-                    <p>blah aiwjoawdj doijoij osifj sfoiefjosiejf soifjs eofisejf oisef se
-                        adjawoid awiodj awoidj awoidjaw dowadijaowd oaiwod doawijdaodjaoi.
+                    <p>The <a href="https://a.co/d/eO0FzHl" target="_blank">AMD Ryzen 7 5800X3D</a>, paired with the
+                        GIGABYTE X570 Aorus Pro, offers top-tier performance for
+                        demanding tasks like gaming and content creation. With 8 cores and 16 threads, the Ryzen 7
+                        5800X3D utilizes 3D V-Cache technology, providing a significant boost in gaming performance,
+                        especially in CPU-intensive titles. The <a href="https://a.co/d/ckEpVpZ" target="_blank">X570
+                            Aorus Pro</a> motherboard ensures stability and
+                        compatibility, featuring PCIe 4.0 support, robust power delivery, and future-proofing for
+                        next-gen components. This combination is perfect for gamers and professionals seeking high
+                        performance and reliability in their PC builds.
                     </p>
                 </div>
                 <h2>High Range Combo</h2>
                 <div class="suggestion-card">
                     <img src="Images/combo3.jpg" alt="combo3">
                     <h3>AMD Ryzen 9 9950X & Asus X670E Crosshair Hero</h3>
-                    <p>awdadawd wdoawijdodj oawidj aowdijaw doiawjd oawjw oawidjoaiwjdoawd
-                        oaiwjdoawdj awodj oawijdiojd oawdj aiodjawoidjawoidjawoi dawdi
-                        oawjd oawdj awoidjdoijaw doiawjdoiawjd oawidj awiodjaidoj.
+                    <p>The <a href="https://a.co/d/acwTXSA" target="_blank">AMD Ryzen 9 9950X</a> is a powerhouse
+                        processor with 16 cores and 32 threads, designed for
+                        demanding tasks like high-end gaming, video editing, and content creation. It delivers
+                        exceptional multi-core performance, making it ideal for users who need top-tier processing
+                        power. Paired with the <a href="https://a.co/d/0k9PDpx" target="_blank">Asus X670E Crosshair
+                            Hero</a> motherboard, it forms a high-performance
+                        combo
+                        that offers excellent stability, superior overclocking capabilities, and cutting-edge PCIe 5.0
+                        support. This combination ensures fast, reliable performance for both work and play, providing
+                        an excellent foundation for a premium gaming or professional PC build.
                     </p>
                 </div>
             </div>
@@ -67,7 +107,13 @@
 
     <footer>
         <a href="#top">Back to top</a>
-        <p>&copy;2024, A product of C-ALM Tech<br>Tel:XXX-XXX-XXXX<br>Email:xxXxX@xxXxxX.com</p>
+        <p>
+            &copy;2024 A product of C-ALM Tech
+            <br>
+            <i class="fas fa-phone"></i> Tel: 670-123-4567
+            <br>
+            <i class="fas fa-envelope"></i> Email: pcpme@gmail.com
+        </p>
     </footer>
 
 </body>
