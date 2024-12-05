@@ -81,3 +81,13 @@
     color: rgb(149, 14, 14);
     font-weight: bold;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 600px;
+}

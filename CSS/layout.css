@@ -179,12 +179,12 @@ footer a:hover {
     color: #f9f9f9;
 }
 
-.pageTP {
+.pageTP, .formJump {
     text-decoration: none;
     color: #ef84bf;
 }
 
-.pageTP:hover {
+.pageTP:hover, .formJump:hover {
     font-weight: bold;
     text-decoration: underline;
 }

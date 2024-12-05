@@ -158,3 +158,23 @@ table {
     font-weight: bold;
     color: #a8a8f3;
 }
+
+button {
+    background-color: #2b49e1;
+    color: white;
+    padding: 6px 9px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #8245a0;
+    font-weight: bold;
+}
+
+button i {
+    margin-right: 10px;  /* Space between icon and text */
+}
